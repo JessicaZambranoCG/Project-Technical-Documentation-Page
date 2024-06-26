@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en>
+  <head>
+    <meta charset=" UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" href="styles.css">
+<title>HTML and CSS Documentation</title>
+</head>
+
+<body>
+  <nav id="navbar">
+    <header>HTML and CSS Documentation</header>
+    <ul>
+      <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+      <li><a class="nav-link" href="#HTML_and_CSS:_Description_and_Use">HTML and CSS: Description and Use</a></li>
+      <li><a class="nav-link" href="#Introducción_a_HTML">Introducción a HTML</a></li>
+      <li><a class="nav-link" href="#Items">Items</a></li>
+      <li><a class="nav-link" href="#Tags">Tags</a></li>
+      <li><a class="nav-link" href="#Attributes">Attributes</a></li>
+      <li><a class="nav-link" href="#Language">Language</a></li>
+      <li><a class="nav-link" href="#Links">Links</a></li>
+      <li><a class="nav-link" href="#Reference">Reference</a></li>
+    </ul>
+  </nav>
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header><strong>Introduction</strong></header>
+      <article>
+        <p>Programming is a very broad discipline that offers hundreds of possibilities when configuring a website. One
+          of its best-known components is HTML, since it is the markup language from which all the content we see on the
+          pages is defined, and next to it is CSS, oriented towards its design and appearance. In fact, although many
+          people are unaware of what HTML and CSS are , it is very likely that they enjoy their applications every day
+          when browsing the web.</p>
+      </article>
+    </section>
+    <section class="main-section" id="HTML_and_CSS:_Description_and_Use">
+      <header><strong>HTML and CSS: Description and Use</strong></header>
+      <article>
+        <p>Let's look at the purpose of HTML:
+        <ul>
+          <li><strong>HTML</strong> is an essential markup language for web development because it allows us to define
+            the structure of the web page, the content that will be displayed in the browser. Its acronym stands for
+            "HyperText Markup Language" in English.</li>
+          <li><strong>CSS</strong> is a rules-based language that allows us to assign styles to the elements of our web
+            page. Its acronym stands for "Cascading Style Sheets."</li>
+        </ul>
+        <p>HTML works together with CSS to create the web pages we use every day in the browser. Some interactive web
+          pages also use JavaScript.</p>
+        <p><strong>Fact:</strong> HTML files have extension .html and CSS files have extension .css. Consider that right
+          now you are viewing a web page that was created with HTML and CSS.</p>
+      </article>
+    </section>
+    <section class="main-section" id="Introducción_a_HTML">
+      <header><strong>Introducción a HTML</strong></header>
+      <article>
+        <p>Now let's start looking at the basics of HTML. Here we have an example of a very simple web page:</p>
+        <p>Example:</p><img
+          src="https://www.gooweb.nubeonline.org/images/recursos/tutoriales/linux/pagina-html-en-blanco.jpg"
+          alt="paginahtml">
+        <p><strong>Tip:</strong> In HTML, indentation (the space or indentation that we place before the lines) is very
+          important because it allows us to visually distinguish the structure of the web page in the file. Although it
+          is not mandatory, it is recommended to use it to more easily understand the structure of the page. It is
+          recommended to leave 2 spaces for each level of indentation..</p>
+        <p>Let's look at the main components you can use in HTML:</p>
+      </article>
+    </section>
+    <section class="main-section" id="Items">
+      <header><strong>Items</strong></header>
+      <article>
+        <p>An HTML file is made up of HTML elements. These elements are individual components in HTML that allow us to
+          create the structure of the page.
+
+          This is an example of an element:</p>
+        <strong><code><span class"token punctuation"><</span>h1<span class"token punctuation">></span>Mi página Web<span class"token punctuation"><</span><span class"token punctuation">/</span>h1<span class"token punctuation">></span></code></strong>
+        <p><strong>Tip:</strong> Certain elements can contain other elements and create more complex structures. When
+          nesting elements inside each other, the internal elements should be indented to reflect this structure, as in
+          our example above.</p>
+      </article>
+    </section>
+    <section class="main-section" id="Tags">
+      <header><strong>Tags</strong></header>
+      <article>
+        <p>Each element has an associated tag. We can create an element using its tag in our HTML file.</p>
+        <p>These are examples of commonly used tags:</p>
+        <ul>
+          <li>
+            <code><strong><span class"token punctuation"><</span>html<span class"token punctuation">></span></strong> - all page content must be between these tags.</code>
+          </li>
+          <li>
+            <code><strong><span class"token punctuation"><</span>head<span class"token punctuation">></span></strong> - this element contains the title of the page that you can see in your browser tab and also contains metadata.</code>
+          </li>
+          <li>
+            <code><strong><span class"token punctuation"><</span>body<span class"token punctuation">></span></strong> - this element contains all the visible elements of the web page. The entire page structure must be between these tags.</code>
+          </li>
+          <li>
+            <code><strong><span class"token punctuation"><</span>h1<span class"token punctuation">></span></strong>, , , , , - these elements represent headings or titles from highest to lowest importance or level on the web page.<strong><span class"token punctuation"><</span>h2<span class"token punctuation">></span></strong><strong><span class"token punctuation"> <</span>h3<span class"token punctuation">></span></strong><strong><span class"token punctuation"> <</span>h4<span class"token punctuation">></span></strong><strong><span class"token punctuation"> <</span>h5<span class"token punctuation">></span></strong><strong><span class"token punctuation"> <</span>h6<span class"token punctuation">></span></strong></code>
+          </li>
+          <li>
+            <code><strong><span class"token punctuation"><</span>p<span class"token punctuation">></span></strong> - a paragraph.</code>
+          </li>
+          <li>
+            <code><strong><span class"token punctuation"><</span>a<span class"token punctuation">></span></strong>- a link to another web page or to internal sections of your web page.</code>
+          </li>
+          <li>
+            <code><strong><span class"token punctuation"><</span>strong<span class"token punctuation">></span></strong> - this label allows you to highlight important text. Usually shown in bold.</code>
+          </li>
+          <li>
+            <code><strong><span class"token punctuation"><</span>em<span class"token punctuation">></span></strong> - this label allows you to highlight important text. Usually shown in italics.</code>
+          </li>
+          <li>
+            <code><strong><span class"token punctuation"><</span>form<span class"token punctuation">></span></strong> - this element allows you to create a form.</code>
+          </li>
+          <li>
+            <code><strong><span class"token punctuation"><</span>hr<span class"token punctuation">></span></strong> - a horizontal line that can be used to separate paragraphs or sections of your web page.</code>
+          </li>
+          <li>
+            <code><strong><span class"token punctuation"><</span>input<span class"token punctuation">></span></strong> - an element that allows you to create forms because it can take text or act as a radio button or checkbox.</code>
+          </li>
+          <li>
+            <code><strong><span class"token punctuation"><</span>footer<span class"token punctuation">></span></strong> - a footer.</code>
+          </li>
+        </ul>
+        <p>Most elements in HTML have an opening tag and a closing tag. The content of the element is written between
+          both tags.</p>
+        <p>In the example above we are creating an element of type <strong><span class"token punctuation">
+              << /span>h1<span class"token punctuation">></span></strong> (a level 1 header):</p>
+        <p>
+          <strong><code><span class"token punctuation"><</span>h1<span class"token punctuation">></span>Mi página Web<span class"token punctuation"><</span><span class"token punctuation">/</span>h1<span class"token punctuation">></span></code></strong>
+        </p>
+        <p>This element has an opening tag and a closing tag to surround its content.</p>
+        <ul>
+          <li>The opening tag is <strong><span class"token punctuation">
+                << /span>h1<span class"token punctuation">></span></strong></li>
+          <li>The closing tag is <strong><span class"token punctuation">
+                << /span><span class"token punctuation">/</span>h1<span class"token punctuation">></span></strong></li>
+        </ul>
+        <p>As you can see in the following diagram:</p><img
+          src="https://www.freecodecamp.org/espanol/news/content/images/2021/10/image-29.png"
+          alt="espanolnewscontentimages">
+        <p><strong>Fact:</strong>The difference between the opening tag and the closing tag is that the closing tag has
+          a slash before the element type.</p>
+        <p>However, some elements do not need a closing tag because they do not act as containers. These include images:
+        </p>
+        <strong><span class="token punctuation">
+            << /span><span class="token punctuation">img src="freeCodeCamp.jpg"<span
+                  class="token punctuation">></strong></p>
+      </article>
+    </section>
+    <section class="main-section" id="Attributes">
+      <header><strong>Attributes</strong></header>
+      <article>
+        <p> HTML elements can have attributes that allow us to describe additional information about the element. These
+          include <strong>class, id, style, lang, src,</strong> and <strong>href.</strong></p>
+        <p>Here we have an example of an HTML element with the attribute class:</p>
+        <p>
+          <strong><code><span class"token punctuation"><</span>h1  class="titulo-principal"<span class"token punctuation">></span>Mi página Web<span class"token punctuation"><</span><span class"token punctuation">/</span>h1<span class"token punctuation">></span></code></strong>
+        </p>
+        <ul>
+          <li>The attributes must be written in the opening tag, before the closing angle bracket.</li>
+          <li>Attributes are se parated by an equal sign <strong>=</strong> from their value. On the left we write the
+            name of the attribute and on the right we specify its value. In this example, the value is
+            <strong>titulo-principal.</strong></li>
+          <li>The attribute value must be surrounded by quotes.</li>
+        </ul>
+        <p><strong>Fact:</strong>Each element type has a specific set of attributes that we can assign and each
+          attribute has a set of possible values.
+      </article>
+    </section>
+    <section class="main-section" id="Language">
+      <header><strong>Language</strong></header>
+      <article>
+        <p>You can specify the primary language of the web page or any element in the structure with the
+          langcorresponding language attribute and code:</p>
+        <p><code><span class="token punctuation"><</span>html lang="es"<span class="token punctuation">></span></code>
+        </p>
+      </article>
+    </section>
+    <section class="main-section" id="Links">
+      <header><strong>Links</strong></header>
+      <article>
+        <p>In HTML you can create links to other web pages and internal sections of your web page with the element
+          <strong><span class="token punctuation">
+              << /span>a<span= class="token punctuation>">>
+            </span></strong> and attribute href.
+        <p>For example, this element would take you to the freeCodeCamp website in Spanish:</p>
+        <code><span class="token punctuation"><</span>a href="https://www.freecodecamp.org/espanol/">freeCodeCamp<span class="token punctuation"><</span><span class="token punctuation">/a></span></code>
+        <ul>
+          <li>The attribute <strong>href</strong> allows us to specify the destination of the link. Its value is the
+            destination of the link</li>.
+          <li>The text we write between the labels <strong><span class="token punctuation">
+                << /span>a><span class="token punctuation">
+                    << /span>/a></strong> is the text the user will see. In this case, the text is freeCodeCamp.</li>
+        </ul>
+      </article>
+    </section>
+    <section class="main-section" id="Reference">
+      <header><strong>Reference</strong></header>
+      <p>The complete documentation can be found on the next page.<a
+          href="https://www.freecodecamp.org/espanol/news/aprende-html-y-css-curso-desde-cero/"
+          target:"_blanK">freecodecamp</a>
+  </main>
+</body>
+<html>
